@@ -1,0 +1,763 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#cover{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+#topNav{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    color:black;
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+align-items: center;
+justify-content: space-between;
+font-size: 20px;
+padding: 10px 20px;
+text-align: center;
+border-bottom: 1px grey solid;
+position: fixed;
+top: 0;
+}
+#message{
+    color:white;
+    left: 96.35%;
+   
+    position: absolute;
+}
+#color{
+    color: red;
+}
+#text{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    color:black;
+    justify-content: space-between;
+    background-color: white;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Dancing Script', cursive;
+padding-left: 15px;
+margin-top: 10px;
+padding-right: 10px;
+}
+#play{
+    margin-left: 1210px;
+}
+#stories{
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+#me{
+    height: 60px;
+    width: 60px;
+   background-image: url(hitvika.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#aman{
+    height: 60px;
+    width: 60px;
+   background-image: url(aman.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#sakshi{
+    height: 60px;
+    width: 60px;
+   background-image: url(sakshi.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#adarsh{
+    height: 60px;
+    width: 60px;
+   background-image: url(adarsh.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#anamika{
+    height: 60px;
+    width: 60px;
+   background-image: url(anamika.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#rishabh{
+    height: 60px;
+    width: 60px;
+   background-image: url(rishabh.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#shashank{
+    height: 60px;
+    width: 60px;
+   background-image: url(shashank.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#tarun{
+    height: 60px;
+    width: 60px;
+   background-image: url(tarun.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#lalit{
+    height: 60px;
+    width: 60px;
+   background-image: url(lalit.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#manas
+{
+    height: 60px;
+    width: 60px;
+   background-image: url(manas.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#chirag{
+    height: 60px;
+    width: 60px;
+   background-image: url(chirag.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border:1px solid red;
+    border-radius: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+#plus{
+    height: 15px;
+    width: 15px;
+    background-color:#00a8ff;
+    color: white;
+    margin-top: 45px;
+    margin-left: 45px;
+    border-radius: 50%;
+    text-align: center;
+}
+#name{
+    width: 100%;
+    height: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+}
+#nme{
+    height: 20px;
+    width: 25px;
+    color: black;
+    margin-left: 20px;
+    background-color: white;
+text-align: center;
+}
+#naman{
+    height: 20px;
+    width: 30px;
+    color: black;
+    margin-right: 30px;
+    background-color:white;
+    
+text-align: center;
+}
+nsakshi{
+    height: 20px;
+    width: 25px;
+    color:black;
+    margin-left: 15px;
+    background-color:white;
+text-align: center;
+}
+#nadarsh{
+    height: 20px;
+    width: 25px;
+    color: black;
+    margin-left: 11px;
+    background-color:white;
+text-align: center;
+}
+#nanamika{
+    height: 20px;
+    width: 25px;
+    color: black;
+    margin-left: 9px;
+    background-color: white;
+    
+text-align: center;
+}
+
+#nrishabh{
+    height: 20px;
+    width: 25px;
+    color:black;
+    margin-left: 15px;
+    background-color: white;
+    
+text-align: center;
+}
+#nshashank{
+    height: 20px;
+    width: 25px;
+    color: black;
+    margin-left: 15px;
+    background-color: white;
+    
+text-align: center;
+}
+#ntarun{
+    height: 20px;
+    width: 25px;
+    color:black;
+    margin-right: 15px;
+    background-color:white;
+    
+text-align: center;
+}
+#nlalit{
+    height: 20px;
+    width: 25px;
+    color: black;
+    margin-right: 15px;
+    background-color:white;
+    
+text-align: center;
+}
+#nmanas{
+    height: 20px;
+    width: 25px;
+    color: black;
+    margin-right: 15px;
+    background-color:white;
+    
+text-align: center;
+}
+#nchirag{
+    height: 20px;
+    width: 25px;
+    color:black;
+    margin-right: 15px;
+    background-color:white;
+    
+text-align: center;
+}
+#post1h{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+font-size: 20px;
+color:black;
+margin-top: 5px;
+border-top: 1px solid rgba(228, 222, 222, 0.932);
+border-bottom: 1px solid rgba(228, 222, 222, 0.932);
+}
+#poster1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+   background-image: url(aman.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+    margin-top: 5px;
+    margin-left: 5px; 
+}
+#post1h h5{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+#dots1{
+    margin-left: 90%;
+    margin-top: 9px;
+    color: rgba(146, 143, 143, 0.534);
+}
+#post1{
+    height: 450px;
+    width: 100%;
+   background-image: url(aman2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+#like1{
+    height: 30px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    margin-bottom: 7px;
+}
+#comment1{
+    height:30px;
+    width: 30px;
+   background-image: url(comment.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 25px;
+    margin-top: 1px;
+}
+#share1{
+height:20px;
+width: 20px;
+margin-left: 25px;
+margin-top: 6px;
+background-image: url(share.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#heart1{
+    margin-left: 5px;
+    margin-top: 6px;
+    color:red;
+}
+#save1{
+    margin-top: 9px;
+    margin-left: 88%;
+}
+#disc1{
+    min-height: 30px;
+    width: 100%;
+    background-color:white;;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+margin-bottom: 20px;
+}
+#three{
+color:grey;
+margin-top: 5px;
+font-size: 12px;
+}
+#five{
+    color:grey;
+    font-size: 9px;
+}
+a{
+    text-decoration: none;
+}
+#post2h{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+font-size: 20px;
+color:black;
+margin-top: 5px;
+border-top: 1px solid rgba(228, 222, 222, 0.932);
+border-bottom: 1px solid rgba(228, 222, 222, 0.932);
+}
+#poster2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+   background-image: url(sakshi.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+    margin-top: 5px;
+    margin-left: 5px; 
+}
+#post2h h5{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+#dots2{
+    margin-left: 90%;
+    margin-top: 9px;
+    color: rgba(146, 143, 143, 0.534);
+}
+#post2{
+    height: 450px;
+    width: 100%;
+   background-image: url(sakshi2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-top: 10px;
+}
+#like2{
+    height: 30px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    margin-bottom: 7px;
+}
+#comment2{
+    height:30px;
+    width: 30px;
+   background-image: url(comment.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 25px;
+    margin-top: 1px;
+}
+#share2{
+height:20px;
+width: 20px;
+margin-left: 25px;
+margin-top: 6px;
+background-image: url(share.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#heart2{
+    margin-left: 5px;
+    margin-top: 6px;
+    color:red;
+}
+#save2{
+    margin-top: 9px;
+    margin-left: 88%;
+}
+#disc2{
+    min-height: 30px;
+    width: 100%;
+    background-color:white;;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+margin-bottom: 20px;
+}
+#six{
+color:grey;
+margin-top: 5px;
+font-size: 12px;
+}
+#eight{
+    color:grey;
+    font-size: 9px;
+}
+#post3h{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+font-size: 20px;
+color:black;
+margin-top: 5px;
+border-top: 1px solid rgba(228, 222, 222, 0.932);
+border-bottom: 1px solid rgba(228, 222, 222, 0.932);
+}
+#poster3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+   background-image: url(manas.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+    margin-top: 5px;
+    margin-left: 5px; 
+}
+#post3h h5{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+#dots3{
+    margin-left: 90%;
+    margin-top: 9px;
+    color: rgba(146, 143, 143, 0.534);
+}
+#post3{
+    height: 450px;
+    width: 100%;
+    margin-top: 10px;
+   background-image: url(manas2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+#like3{
+    height: 30px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    margin-bottom: 7px;
+}
+#comment3{
+    height:30px;
+    width: 30px;
+   background-image: url(comment.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 25px;
+    margin-top: 1px;
+}
+#share3{
+height:20px;
+width: 20px;
+margin-left: 25px;
+margin-top: 6px;
+background-image: url(share.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#heart3{
+    margin-left: 5px;
+    margin-top: 6px;
+    color:red;
+}
+#save3{
+    margin-top: 9px;
+    margin-left: 88%;
+}
+#disc3{
+    min-height: 30px;
+    width: 100%;
+    background-color:white;;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+margin-bottom: 20px;
+}
+#nine{
+color:grey;
+margin-top: 5px;
+font-size: 12px;
+}
+#eleven{
+    color:grey;
+    font-size: 9px;
+}
+#post4h{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+font-size: 20px;
+color:black;
+margin-top: 5px;
+border-top: 1px solid rgba(228, 222, 222, 0.932);
+border-bottom: 1px solid rgba(228, 222, 222, 0.932);
+}
+#poster4{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+   background-image: url(kajol.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+    margin-top: 5px;
+    margin-left: 5px; 
+}
+#post4h h5{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+#dots4{
+    margin-left: 90%;
+    margin-top: 9px;
+    color: rgba(146, 143, 143, 0.534);
+}
+#post4{
+    height: 450px;
+    width: 100%;
+    margin-top: 10px;
+   background-image: url(kajol2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+#like4{
+    height: 30px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    margin-bottom: 7px;
+}
+#comment4{
+    height:30px;
+    width: 30px;
+   background-image: url(comment.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 25px;
+    margin-top: 1px;
+}
+#share4{
+height:20px;
+width: 20px;
+margin-left: 25px;
+margin-top: 6px;
+background-image: url(share.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#heart4{
+    margin-left: 5px;
+    margin-top: 6px;
+    color:red;
+}
+#save4{
+    margin-top: 9px;
+    margin-left: 88%;
+}
+#disc4{
+    min-height: 30px;
+    width: 100%;
+    background-color:white;;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Caveat', cursive;
+margin-bottom: 20px;
+}
+#twelve{
+color:grey;
+margin-top: 5px;
+font-size: 12px;
+}
+#fourteen{
+    color:grey;
+    font-size: 9px;
+}
+#lastplus{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+   margin-bottom: 60px;
+}
+#sign{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50%;
+    color: white;
+    border: 1px solid rgba(146, 143, 143, 0.534);
+    margin-bottom: 10px;
+   text-align: center;
+}
+#sign p{
+ 
+  color:grey;
+    font-size: 40px;
+}
+#lastnav{
+    position: fixed;
+    bottom: 0;
+    height:50px;
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid rgba(146, 143, 143, 0.534);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}
+#home{
+    height: 35px;
+    width: 35px;
+    background-image: url(home.png);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-top: 10px;
+   margin-left: 10px
+}
+#search{
+    color:rgba(121, 118, 118, 0.534);
+    margin-top: 10px;
+}
+#navplus{
+    color:rgba(121, 118, 118, 0.534);
+    margin-top: 10px;
+}
+#navheart{
+    color:rgba(121, 118, 118, 0.534);
+    margin-top: 10px;
+}
+#person{
+    color:rgba(121, 118, 118, 0.534);
+    margin-top: 10px; 
+    margin-right: 20px
+}
